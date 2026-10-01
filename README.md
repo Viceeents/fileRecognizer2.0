@@ -162,44 +162,6 @@ The simulator implements the DFA described above. It accepts one or more input s
 
 Project objectives are to analyze a practical formal-language problem; construct finite automata for its language; apply regular expressions, NFA, DFA, subset construction, and DFA minimization; demonstrate equivalence between those representations; and implement a program that simulates the designed automaton.
 
-### Team participation
-
-All members contribute to the technical work and presentation, and every member should understand the complete project because anyone may be asked questions during the defense.
-
-| Member | Primary responsibility |
-| --- | --- |
-| 1 – Project Leader | Coordinate work, deadlines, and integration |
-| 2 – Language Analyst | Define the alphabet, strings, language, and acceptance rules |
-| 3 – RE/NFA Designer | Develop the regular expression and NFA |
-| 4 – DFA Designer | Perform and present subset construction |
-| 5 – Automata Optimizer | Minimize the DFA and validate equivalence |
-| 6 – Programmer | Lead simulator implementation |
-| 7 – Tester/QA | Design test cases and verify results |
-| 8–9 – Documentation/Presentation Leads | Organize the report, presentation, diagrams, and supporting evidence |
-
-### Final report
-
-Include these sections, adjusting numbering or combining closely related sections as needed:
-
-1. Cover page and table of contents
-2. Introduction and project objectives
-3. Scope and limitations
-4. Formal language definition, alphabet, strings, and accepted/rejected examples
-5. Regular expression and explanation of its components
-6. NFA formal definition, transition table, and state diagram
-7. NFA-to-DFA subset-construction process, DFA transition table, and state diagram
-8. DFA minimization, state-equivalence analysis, minimized transition table, and diagram
-9. System design and implementation/source code
-10. Test cases and results, including screenshots of the working system
-11. Discussion of results and conclusion
-12. References
-13. Individual contribution matrix
-
-Use APA style for citations and references where applicable, adapting the formatting to the instructor's report template when necessary.
-
-### Presentation and defense
-
-Plan for approximately 12–15 minutes: 8–10 minutes for the presentation and live system demonstration, followed by 4–5 minutes for questions and defense. Every member should participate. The scheduled defense dates are October 6 and October 9, 2026.
 
 ## Project folder structure
 

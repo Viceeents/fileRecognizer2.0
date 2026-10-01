@@ -1,10 +1,11 @@
-"""Connect filename extension extraction to the DFA."""
+"Connect filename extension extraction to the DFA."
 
 from automata import process_extension
 from file_reader import get_extension, get_file_metadata, get_file_name
 
 
 def recognize_file(file_path: str) -> dict:
+    """Combine file details and extension-check results for the interface."""
     name = get_file_name(file_path)
     extension = get_extension(file_path)
     metadata = get_file_metadata(file_path)

@@ -1,4 +1,4 @@
-"""Read filenames and metadata without inspecting file contents."""
+"Read filenames and metadata without inspecting file contents."
 
 import mimetypes
 import os

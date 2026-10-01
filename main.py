@@ -1,4 +1,4 @@
-"""Launch the file extension recognizer."""
+"Launch the file extension recognizer."
 
 from ui import RecognizerWindow
 

@@ -1,15 +1,13 @@
-"""Filename handling for dropped or selected files.
+"""Read filenames and metadata without inspecting file contents."""
 
-This project recognizes the filename extension; it does not inspect file bytes.
-"""
-
-from pathlib import Path
-from datetime import datetime
 import mimetypes
 import os
+from datetime import datetime
+from pathlib import Path
 
 
 def get_file_name(file_path: str) -> str:
+    """Return the filename without its folder path."""
     return Path(file_path).name
 
 

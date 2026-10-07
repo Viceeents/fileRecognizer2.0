@@ -278,9 +278,15 @@ class RecognizerWindow:
 
             result = "ACCEPTED" if info["accepted"] else "REJECTED"
             metadata = info["metadata"]
+            full_file_name = (
+                f"The file name is {info['full_file_name']}.\n"
+                if info["accepted"]
+                else ""
+            )
             contents.append(
                 f"Recognition: {result}\n\n"
                 f"File name: {info['name']}\n"
+                f"{full_file_name}"
                 f"Extension: {info['extension']}\n"
                 f"Size: {metadata['size_bytes']:,} bytes\n"
                 f"Type (extension-based guess): {metadata['mime_type']}\n"
